@@ -13,11 +13,8 @@ const DetailsPost = ({ params }) => {
       <h1 className="text-5xl">Know Details About {params.postId} </h1>
       <div className="card bg-base-100 w-96 shadow-sm">
         <div className="card-body">
-          <h2 className="card-title">{postDetails.title}</h2>
+          <h2 className="card-title">{postDetails?.title}</h2>
           <p>{postDetails.body}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
         </div>
       </div>
     </div>
