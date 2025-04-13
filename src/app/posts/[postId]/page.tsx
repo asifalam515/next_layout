@@ -15,7 +15,7 @@ const DetailsPost = ({ params }) => {
         <div className="card-body">
           <h2 className="card-title">{postDetails?.title}</h2>
           <p>{postDetails.body}</p>
-        </div>
+      </div>
       </div>
     </div>
   );
